@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Keyword Search</title>
+    </head>
+    <link rel="stylesheet" href="/static/style_search.css">
+    <body>
+        <div class="container">
+            <h1><a href="/todayspaper/">Today's Paper</a></h1>
+            <form action="/todayspaper/search" method="GET">
+                <p>
+                    Papers with keyword 
+                    <input type="text" name="keyword" placeholder="{}">
+                    <input type="submit" value="search">
+                </p>
+            </form>
+        </div>
+        <div class="paper_list">
+            {}
+        </div>
+    </body>
+</html>
